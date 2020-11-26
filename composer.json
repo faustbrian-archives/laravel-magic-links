@@ -1,0 +1,48 @@
+{
+    "name": "konceiver/laravel-magic-links",
+    "description": "Convert bytes to a human readable strings",
+    "keywords": [
+        "konceiver",
+        "laravel-magic-links"
+    ],
+    "homepage": "https://github.com/konceiver/laravel-magic-links",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "brian@konceiver.dev",
+            "homepage": "https://konceiver.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/auth": "^8.0",
+        "illuminate/contracts": "^8.0",
+        "illuminate/session": "^8.0",
+        "illuminate/support": "^8.0",
+        "laravel/fortify": "^1.7"
+    },
+    "require-dev": {
+        "konceiver/laravel-stan": "^1.1",
+        "konceiver/stan": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Konceiver\\MagicLinks\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Konceiver\\MagicLinks\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest --coverage --min=100"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
