@@ -21,7 +21,8 @@
         "illuminate/contracts": "^8.0",
         "illuminate/session": "^8.0",
         "illuminate/support": "^8.0",
-        "laravel/fortify": "^1.7"
+        "laravel/fortify": "^1.7",
+        "spatie/laravel-package-tools": "^1.9"
     },
     "require-dev": {
         "konceiver/laravel-stan": "^1.1",
